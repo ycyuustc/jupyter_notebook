@@ -1,0 +1,32 @@
+
+th website: https://vpn.csrc.ac.cn/
+th outer: yicong & gracexin96
+th inner: ycyu & jkzx8102yuyc,,,
+th inner IP : 10.0.0.101
+
+export PATH=/vol7/software/python3/bin:$PATH
+export LD_LIBRARY_PATH=/vol7/software/python3/lib:$LD_LIBRARY_PATH
+
+ssh sugon@159.226.124.132
+password: yychen@027_2018
+
+ssh yicong@192.168.88.29
+password: yicong
+
+git config --global user.name 'ycyuustc'
+git config --global user.email '176133205@qq.com'
+git init
+git comfig -l
+git remote add origin https://github.com/ycyuustc/python_Bethe_Ansatz
+
+git remote -v
+
+git status
+git add *
+git commit -m "name"
+git pull origin master
+git push -u origin master
+
+git clone git@........
+
+
